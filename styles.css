@@ -1,0 +1,236 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#landingimage{
+    background-image: url("images/idiot.jpg");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navsection{
+    display: flex;
+    width: 90%;
+    margin: 1rem 0rem;
+    border-bottom: 3px solid white;
+    
+}
+#navsection #menu{
+    align-items: baseline;
+    padding-top: 1.2rem;
+    visibility: hidden;
+}
+#logo{
+    font-size: 1.2rem;
+    width: 50%;
+    padding-left: 2rem;
+}
+#nav ul{
+    display: flex;
+    gap: 2rem;
+    
+}
+#nav ul li{
+    list-style: none;
+   
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+#nav ul li a:hover{
+    background-color: #ffd700;
+    color: white;
+    
+}
+#landingsection{
+    display: flex;
+    width: 100%;
+    padding-left: 2rem;
+    height: 60vh;
+    align-items: center;
+}
+#landingsection #landingword h2{
+    font-size: 3rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+#landingsection #landingword p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#heading{
+    text-align: center;
+ 
+}
+#heading h2{
+    font-size: 3rem;
+}
+#iconssection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-bottom: 2px solid black;
+}
+.icons svg{
+    width: 50px;
+    color: #ffd700;
+}
+.icons h3{
+    font-size: 2rem;
+    color: #87888a;
+    margin-top: 0;
+    
+}
+.icons{
+    border-right: 2px solid black;
+    margin: 1rem 0rem;
+}
+
+.icons h4{
+    color: #87888a;
+    margin-top: -20px;
+}
+#face{
+    width: 20rem
+}
+.faceid{
+    display: flex;
+    margin-right: 2rem;
+
+}
+#text{
+    text-align:justify;
+    padding: 0.5rem;
+}
+.nutshell{
+    display: flex;
+}
+#empty{
+    width: 100%;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd700;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 0 1rem;
+    height: 1.5rem;
+}
+#music{
+    width: 90%;
+}
+#drinking{
+    width: 80%;
+}
+#training{
+    width: 60%;
+}
+#sleeping{
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+#me{
+    border-bottom: 2px solid gray;
+}
+#santa{
+    text-align: center;
+}
+#santa p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#santa h4{
+    color: #ffd700;
+}
+#club{
+    margin-top: 3rem;
+}
+#recentpics{
+    width: 3.5rem;
+}
+.Overview{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid black;   
+}
+#Pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.Posts{
+    background-color: #b8aeae;
+    height: 40vh;
+    margin-top: 2rem;
+}
+.Overview ul li{
+    list-style: none;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        width:100%;
+margin: 0 auto;    }
+
+    #nav ul{
+        display: block;
+        visibility: hidden;
+    }
+
+    
+    .nutshell{
+        display: block;
+    }
+
+    #landingimage{
+        height: 60vh;
+    }
+
+    #iconssection{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    #landingsection #landingword h2{
+        font-size: 1.5rem;
+        
+    }
+
+    .faceid{
+        display: block;
+        margin-right: 0;
+    }
+
+    .Overview{
+        display: block;
+        
+    }
+
+    .Posts{
+       
+        height: 90vh;
+       
+    }
+    #Pics{
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.5rem;
+    }
+    #navsection #menu{
+        align-items: baseline;
+        padding-top: 1.2rem;
+        visibility: visible;
+    }
+    
+    
+}
